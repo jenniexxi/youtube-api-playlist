@@ -1,0 +1,20 @@
+.video-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.video-item.item img {
+  max-width: 200px;
+  max-height: 250px ;
+}
+
+.eleven .embed{
+  resize: both;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.eleven .embed iframe{
+  padding: 4%;
+}
